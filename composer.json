@@ -1,0 +1,25 @@
+{
+    "name": "carbon/crossreference",
+    "description": "Helper package to manage Node cross references (bidirectional references) in your Neos CMS project",
+    "type": "neos-carbon",
+    "license": "MIT",
+    "require": {
+        "neos/neos": "^7.0 || ^8.0"
+    },
+    "replace": {
+        "ttree/crossreference": "*"
+    },
+    "conflict": {
+        "ttree/crossreference": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Carbon\\CrossReference\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Carbon.CrossReference"
+        }
+    }
+}

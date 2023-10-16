@@ -1,0 +1,13 @@
+# Carbon:
+#   CrossReference:
+#     presets:
+#       Vendor.Articles:Category:
+#         enabled: true
+#         mapping:
+#           - Vendor.Articles:Document.Item: category
+#           - Vendor.Articles:Document.Category: articles
+#       Vendor.Articles:Author:
+#         enabled: true
+#         mapping:
+#           - Vendor.Articles:Document.Item: authors
+#           - Vendor.Articles:Document.Author: articles
