@@ -6,12 +6,6 @@
     "require": {
         "neos/neos": "^7.0 || ^8.0"
     },
-    "replace": {
-        "ttree/crossreference": "*"
-    },
-    "conflict": {
-        "ttree/crossreference": "*"
-    },
     "autoload": {
         "psr-4": {
             "Carbon\\CrossReference\\": "Classes/"
